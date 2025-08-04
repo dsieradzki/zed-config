@@ -23,6 +23,10 @@
       "program": "cmd"
     }
   },
+  "tabs": {
+    "file_icons": true
+  },
+  "restore_on_startup": "none",
   // START: Clean up privacy
   "disable_ai": true,
   "show_edit_predictions": false,
@@ -34,15 +38,19 @@
     "metrics": false
   },
   "title_bar": {
-    "show_sign_in": false
+    "show_sign_in": false,
+    "show_branch_icon": true,
+    "show_menus": true
+  },
+  "collaboration_panel": {
+    "button": false
   },
   // END: Clean up privacy
-
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Mocha"
+    "dark": "Ayu Dark"
   }
 }
